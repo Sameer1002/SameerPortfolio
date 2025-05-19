@@ -1,0 +1,35 @@
+#head.MuiAppBar-root {
+    background-color: #f2eff9 !important;
+    color: #000 !important;
+    box-shadow: none !important;
+}
+
+#head .MuiButton-root {
+    color: #000 !important;
+    font-weight: 600;
+    font-size: 18px !important;
+}
+
+#head .MuiButton-root:hover {
+    background-color: transparent !important;
+}
+.logotext{
+    line-height: 22px !important;
+    margin-left: 10px !important;
+}
+@media screen and (max-width:767px) {
+    #head.MuiAppBar-root {
+        z-index: 1201 !important;
+    }
+}
+
+@media (min-width: 600px) {
+    .MuiToolbar-root {
+        min-height: 130px !important;
+    }
+
+    .MuiToolbar-root {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
